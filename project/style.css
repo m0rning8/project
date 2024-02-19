@@ -1,0 +1,446 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    color: #fff;
+    font-family: "Lato", sans-serif;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+#firstpage{
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100vh;
+    background: #19191B;
+    display: flex;
+}
+header{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 10vh;
+}
+.nav{
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: -0.5px;
+    width: 30%;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+}
+.logo{
+    margin-left: -5%;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 140%;
+}
+.imglogo{
+    margin-bottom: -8px;
+}
+.contact{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 16px;
+    margin-right: -5%;
+    color: #fff;
+    width: 10%;
+    height: 60%;
+    background: none;
+    border-radius: 5px;
+    border: 1px solid #FFF;
+    backdrop-filter: blur(1px);
+}
+.home{
+    color: #fff;
+    text-decoration: none;
+}
+.services{
+    color: #fff;
+    text-decoration: none;
+}
+.project{
+    color: #fff;
+    text-decoration: none;
+}
+.about{
+    color: #fff;
+    text-decoration: none;
+}
+.contact:hover{
+    background-color: darkgrey;
+    transition: 1s;
+    cursor: pointer;
+}
+a:hover{
+    color: darkslateblue;
+    transition: 1s;
+}
+.textandpic{
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+}
+.text-button{
+    margin-left: 40px;
+    width: 40vw;
+}
+.text1{
+    width: 60%;
+    font-size: 80px;
+}
+.text2{
+    margin-top: 4%;
+    color: rgba(255, 255, 255, 0.70);
+    width: 87%;
+    font-size: 21px;
+    letter-spacing: -0.657px;
+}
+.pic1{
+    width: 50vw;
+    height: 90vh;
+}
+.img1{
+    bottom: 5%;
+    left: 20%;
+    position: relative;
+    width: 40vw;
+    height: 99%;
+}
+.our-services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin-top: 5%;
+    font-weight: 700;
+    font-size: 20px;
+    width: 25%;
+    height: 6vh;
+    cursor: pointer;
+    border: #5454D4;
+    border-radius: 4px;
+    background: #5454D4;
+}
+.our-services:hover{
+    background: #3b5998;
+    transition: 1s;
+}
+#secondpage{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    background: #19191B;
+    width: 100%;
+    height: 100vh;
+}
+.description{
+    height: 30vh;
+    margin-top: 60px;
+    display: flex;
+    width: 80%;
+    margin-bottom: 18px;
+}
+.image{
+    margin-bottom: 5%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 70vh;
+}
+.image1{
+    width: 75%;
+    height: 100%;
+}
+.des1{
+    width: 40%;
+    font-size: 60px;
+}
+.des2{
+    margin-left: 100px;
+    width: 50%;
+    font-size: 21px;
+    color: rgba(255, 255, 255, 0.70);
+}
+#thirdpage{
+    width: 100%;
+    height: 100vh;
+    background: #19191B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.service{
+    height: 90vh;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.icons{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+#thirdpage>.service>.icons>div{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.devlogo1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 60px;
+    height: 60px;
+    background: rgba(84, 84, 212, 0.10);
+    border-radius: 50px;
+}
+.uilogo1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 60px;
+    height: 60px;
+    background: rgba(240, 64, 55, 0.10);
+    border-radius: 50px;
+}
+.graphlogo1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 60px;
+    height: 60px;
+    background: rgba(254, 220, 90, 0.10);
+    border-radius: 50px;
+}
+.motionlogo1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 60px;
+    height: 60px;
+    background: rgba(254, 220, 90, 0.10);
+    border-radius: 50px;
+}
+.photologo1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 60px;
+    height: 60px;
+    background: rgba(84, 84, 212, 0.10);
+    border-radius: 50px;
+}
+.videologo1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 60px;
+    height: 60px;
+    background: rgba(240, 64, 55, 0.10);
+    border-radius: 50px;
+}
+.servicetext{
+    text-align: center;
+    width: 50%;
+    font-size: 60px;
+}
+.devtext{
+    font-size: 28px;
+}
+.uitext{
+    font-size: 28px;
+}
+.graphtext{
+    font-size: 28px;
+}
+.motiontext{
+    font-size: 28px;
+}
+.phototext{
+    font-size: 28px;
+}
+.videotext{
+    font-size: 28px;
+}
+.devtext1{
+    color: rgba(255, 255, 255, 0.70);
+    margin-top: 24px;
+    text-align: center;
+    width: 70%;
+    font-size: 20px;
+}
+.uitext1{
+    color: rgba(255, 255, 255, 0.70);
+    margin-top: 24px;
+    text-align: center;
+    width: 70%;
+    font-size: 20px;
+}
+.graphtext1{
+    color: rgba(255, 255, 255, 0.70);
+    margin-top: 24px;
+    text-align: center;
+    width: 70%;
+    font-size: 20px;
+}
+.motiontext1{
+    color: rgba(255, 255, 255, 0.70);
+    margin-top: 24px;
+    text-align: center;
+    width: 70%;
+    font-size: 20px;
+}
+.phototext1{
+    color: rgba(255, 255, 255, 0.70);
+    margin-top: 24px;
+    text-align: center;
+    width: 70%;
+    font-size: 20px;
+}
+.videotext1{
+    color: rgba(255, 255, 255, 0.70);
+    margin-top: 24px;
+    text-align: center;
+    width: 70%;
+    font-size: 20px;
+}
+.dev{
+    width: 33%;
+}
+.ui{
+    width: 33%;
+}
+.graphic{
+    width: 33%;
+}
+.motion{
+    width: 33%;
+}
+.photo{
+    width: 33%;
+}
+.video{
+    width: 33%;
+}
+#fourthpage{
+    height: 100vh;
+    width: 100%;
+    background: #19191B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.textandimg{
+    display: flex;
+    width: 90%;
+    height: 80vh;
+    justify-content: space-around;
+    align-items: center;
+}
+.squid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 370px;
+    height: 300px;
+    border-radius: 14px;
+    background: #1E1E20;
+}
+.interior{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 370px;
+    height: 300px;
+    border-radius: 14px;
+    background: #1E1E20;
+}
+.love{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 370px;
+    height: 300px;
+    border-radius: 14px;
+    background: #1E1E20;
+}
+.text4{
+    position: relative;
+    left: -300px;
+    font-size: 58px;
+    font-weight: 800;
+}
+.fifthpage{
+    justify-content: flex-end;
+    background: #19191B;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+.div5{
+    background: rgba(30, 30, 32);
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contactus{
+    margin-left: 8%;
+    width: 50%;
+    font-size: 60px;
+}
+.contactusbutton{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 10%;
+    height: 6vh;
+    color: #fff;
+    font-size: 21px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    background: #5454D4;
+    margin-right: 8%;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 20vh;
+}
+.logo5{
+    margin-left: 5%;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 140%;
+}
+.contactusbutton:hover{
+    transition: 1s;
+    background: darkblue;
+}
+.rights{
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 16px;
+    margin-right: 5%;
+}
